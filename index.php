@@ -13,11 +13,14 @@
 <body>
 
 <h1>xkcd Password Generator</h1>
+  <div class="result">
 <p>
+
 Your password is: <?php echo $output ?> <br>
 <?php echo $msg ?>
-</p>
 
+</p>
+  </div>
 <form action='index.php' method="post">
   <fieldset>
     <legend class="generateOptions">Password Options</legend>
