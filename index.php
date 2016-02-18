@@ -4,7 +4,7 @@
 <head>
 
 <?php require('logic.php'); ?>
-<title>Password Generator - P2</title>
+<title>Gurinder Virdi's xkcd Password Generator - P2</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -21,9 +21,9 @@ Your password is: <?php echo $output ?> <br>
 <form action='index.php' method="post">
   <fieldset>
     <legend class="generateOptions">Password Options</legend>
-  <label># of Words<input type="text" name="numWords">(Max 5)</input><br/>
-  <label><input type="checkbox" name="addNumber" value='true'>Add a Number</input><br/>
-  <label><input type="checkbox" name="addSymbol" value='true'>Add a Symbol</input><p>
+  <label># of Words</label><input type="text" name="numWords">(Max 5)<br/>
+  <label><input type="checkbox" name="addNumber">Add a Number</label><br/>
+  <label><input type="checkbox" name="addSymbol">Add a Symbol</label><p>
   <button type="submit">Generate Password!</button>
 </fieldset>
 </form>

@@ -4,6 +4,7 @@ $words = ['test','bank','there','their','home','computer','language','file','lis
 
 $result='';
 $msg='';
+$output='';
 
 if(empty($_POST['numWords'])){
   $msg = "You didn't enter a valid number of words, so I chose 4.";
