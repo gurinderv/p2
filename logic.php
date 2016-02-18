@@ -25,11 +25,11 @@ if(empty($_POST['numWords'])){
 }
 
 $number = '';
-if(isset($_POST['addNumber']) && ($_POST['addNumber']) == 'true'){
+if(isset($_POST['addNumber']) && ($_POST['addNumber']) == 'on'){
     $number = rand(0,9);
 }
 $symbol = '';
-if(isset($_POST['addSymbol']) && ($_POST['addSymbol']) == 'true'){
+if(isset($_POST['addSymbol']) && ($_POST['addSymbol']) == 'on'){
     $symbol = '@';
 }
 
