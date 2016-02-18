@@ -24,7 +24,8 @@ Optional:
 
 <h1>xkcd Password Generator</h1>
 <p>
-Your password is: <?php echo $output ?>
+Your password is: <?php echo $output ?> <br>
+<?php echo $msg ?>
 </p>
 
 <form action='index.php' method="post">
