@@ -4,7 +4,7 @@
 <http://p2.gurindervirdi.me>
 
 ## Link to screencast demo of this project:
-<>
+<http://screencast.com/t/uFj7qsnuZoJT>
 
 ## Description and Details for the Teaching Team
 This repository contains the required submission for the second assignment for the Dynamic Web Applications course - P2.
