@@ -21,7 +21,7 @@ Your password is: <?php echo $output ?> <br>
 <form action='index.php' method="post">
   <fieldset>
     <legend class="generateOptions">Password Options</legend>
-  <label># of Words</label><input type="text" name="numWords">(Max 5)<br/>
+  <label># of Words&nbsp;</label><input type="text" name="numWords">&nbsp;(Max 9)<br/>
   <label><input type="checkbox" name="addNumber">Add a Number</label><br/>
   <label><input type="checkbox" name="addSymbol">Add a Symbol</label><p>
   <button type="submit">Generate Password!</button>

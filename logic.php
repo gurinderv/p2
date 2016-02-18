@@ -7,13 +7,21 @@ $msg='';
 $output='';
 
 if(empty($_POST['numWords'])){
-  $msg = "You didn't enter a valid number of words, so I chose 4.";
+  $msg = "You didn't enter a valid number of words, above is a 4 word password.";
   $numWords = 4;
 } else if(!is_numeric($_POST['numWords'])){
-    $msg = "You did not enter a valid number of words, so I chose 5.";
+    $msg = "You did not enter a valid number of words, above is a 5 word password.";
     $numWords = 5;
 } else {
+  if($_POST['numWords'] < 3){
+    $msg = "You must choose more than 3 words. Above is a 3 word password.";
+    $numWords = 3;
+  }else if($_POST['numWords'] > 9){
+    $msg = "The password maximum word count is 9. Above is a 9 word password.";
+    $numWords = 9;
+  }else{
     $numWords = $_POST['numWords'];
+}
 }
 
 $number = '';
